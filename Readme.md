@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Vladyslav Slovetskyi](https://up.htmlacademy.ru/htmlcss/27/user/819599).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Духницький](https://htmlacademy.ru/profile/id59884).
 
 ---
 
