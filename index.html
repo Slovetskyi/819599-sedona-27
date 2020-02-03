@@ -75,33 +75,34 @@
         <span>Заинтересовались?</span>
         <p>Укажите предполагаемые даты поездки, 
         и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <img src="img/map.jpg" width="1200" height="593" alt="Расположение городка Седона на карте">
+      <button type="button">Поиск гостиницы в седоне</button>   
       <form method="GET">
         <fieldset>
           <legend>Поиск гостиницы в седоне</legend>
           <ul>
             <li>
               <lebel for="arrival date">Дата заезда:</lebel>
-              <input type="date" id="arrival date">
+              <input type="date" name="arrival-date" id="arrival date">
               <img src="img/calendar.svg" width="21" height="22" alt="логотип календаря">
             </li>
             <li>
               <lebel for="departure date">Дата выезда:</lebel>
-              <input type="date" id="departure date">
+              <input type="date" name="departure-date" id="departure date">
               <img src="img/calendar.svg" width="21" height="22" alt="логотип календаря">
             </li>
             <li>
               <label for="adults">Взрослые:</label>
-              <input type="number" id="adults" placeholder="2">
+              <input type="number" name="number-of-adults" id="adults" placeholder="2">
             </li>
             <li>
               <label for="children">Дети:</label>
-              <input type="number" id="children" placeholder="0">
+              <input type="number" name="number-of-children" id="children" placeholder="0">
             </li>
-          </ul>    
-        </fieldset>  
-        <button type="button">Найти</button>
-      </form>        
+          </ul>
+          <button type="submit">Найти</button>  
+        </fieldset>
+      </form>
+      <img src="img/map.jpg" width="1200" height="593" alt="Расположение городка Седона на карте">      
     </main>
     
     <footer>
@@ -111,9 +112,9 @@
       </div>
       <div>
         <ul>
-          <li><a href=""><img src="img/twitter.svg" width="17" height="15" alt="иконка твиттера"></a></li>
-          <li><a href=""><img src="img/fb-icon.svg" width="12" height="22" alt="иконка фейсбука"></a></li>
-          <li><a href=""><img src="img/youtube.svg" width="20" height="16" alt="иконка ютуба"></a></li>
+          <li><a href="https://twitter.com/"><img src="img/twitter.svg" width="17" height="15" alt="иконка твиттера"></a></li>
+          <li><a href="https://www.facebook.com/"><img src="img/fb-icon.svg" width="12" height="22" alt="иконка фейсбука"></a></li>
+          <li><a href="https://www.youtube.com/"><img src="img/youtube.svg" width="20" height="16" alt="иконка ютуба"></a></li>
         </ul>  
       </div>
       <div>
