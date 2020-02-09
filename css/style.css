@@ -184,10 +184,28 @@ a {
     background-color: #81b3d2; 
 }
 
+.detail-button:hover {
+    background-color: #669ec0;
+}
+
+.detail-button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
+
 .book-button {
    width: 142px;
    height: 27px; 
    background-color: #766357; 
+}
+
+.book-button:hover {
+    background-color: #604e43;
+}
+
+.book-button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #503e33;
 }
 
 .rate {
@@ -198,4 +216,37 @@ a {
 
 p.rate {
     color: #666666;
+    text-align: center;
 }
+
+.search-count {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.sorting {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.sorting span {
+    color: #000000;
+}
+
+.sorting button {
+    color: rgba(0, 0, 0, 0.3);
+    border: none;
+    background: none;
+    text-transform: uppercase;
+}
+
+.sorting button:hover {
+    color: #81b3d2;
+}
+
+.sorting button:active {
+    color:#000000;
+}
+
